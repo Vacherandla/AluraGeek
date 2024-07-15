@@ -1,0 +1,13 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./Data/db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <img src="./Assets/image 1.png" alt="Corazones" />
+        <img src="./Assets/AluraGeek.png" alt="AluraGeek" />
+    </header>
+    <main>
+        <section class="agregar-producto-container">
+            <h1>Agregar Productos:</h1>
+            <form class="form-container" data-form>
+                <input type="text" data-name placeholder="Nombre . . ." required />
+                <input type="number" data-price placeholder="Precio . . ." required />
+                <input type="url" data-img placeholder="Imagen . . ." required />
+                <div class="button-container">
+                    <button type="submit" class="boton-agregar" id="button">Enviar</button>
+                    <button type="reset" class="boton-limpiar" id="button">Limpiar</button>
+                </div>
+            </form>
+
+        </section>
+
+        <section class="products-container">
+            <h1>Mis Productos:</h1>
+            <div class="card-container" data-card>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer-container">
+        <div class="imagen"> 
+            <img src="./Assets/image 1.png" alt="Corazones" />
+            <img src="./Assets/AluraGeek.png" alt="AluraGeek" />
+        </div>
+        <h3>Desarrollado por Luis Augusto Vacherand</h3>
+        <h4>Alura Latam 2024</h4>
+    </footer>
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+
+</html>

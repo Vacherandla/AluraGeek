@@ -1,0 +1,46 @@
+{
+  "Products": [
+    {
+      "id": "eab7",
+      "name": "Milenium Falcon",
+      "price": "250",
+      "img": "https://m.media-amazon.com/images/I/71ujL3BxvZL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "3a12",
+      "name": "Darth Nihilus",
+      "price": "90",
+      "img": "https://i.ebayimg.com/images/g/qtUAAOSwNqFe-RMq/s-l1200.webp"
+    },
+    {
+      "id": "ced4",
+      "name": "Revan",
+      "price": "225",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9v3Cs5lzx3wSZUQsVUU9VJMcyIy7j8OPFIQ&s"
+    },
+    {
+      "id": "af03",
+      "name": "HK-47",
+      "price": "85",
+      "img": "https://hasbropulse.com/cdn/shop/files/F87225L00_main_2_23_2000px_300DPI.jpg?v=1695061478&width=1200"
+    },
+    {
+      "id": "f16c",
+      "name": "B1 Droid",
+      "price": "25",
+      "img": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1713002520101?fmt=jpeg&qlt=90&wid=608&hei=608"
+    },
+    {
+      "id": "85b9",
+      "name": "Super Battle Droid",
+      "price": "60",
+      "img": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/9a4d0bb3efb847e286a30cfc3dfd9066_Original.jpg"
+    },
+    {
+      "id": "b109",
+      "name": "Droideka",
+      "price": "345",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsDiIlSansaB3wBzFPemvFR-mMU_2KXf_sxg&s"
+    }
+  ]
+}
