@@ -1,6 +1,6 @@
 async function productList() {
     try {
-        const res = await fetch("http://localhost:3001/Products");
+        const res = await fetch("https://my-json-server.typicode.com/Vacherandla/aluraGeek.api/Products");
         return res.json();
     }
     catch (error) {
@@ -12,7 +12,7 @@ async function productList() {
 
 const createProducts = async (name, price, img) => {
     try {
-        const res = await fetch("http://localhost:3001/Products", {
+        const res = await fetch("https://my-json-server.typicode.com/Vacherandla/aluraGeek.api/Products", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, price, img })
@@ -27,7 +27,7 @@ const createProducts = async (name, price, img) => {
 const deleteProducts = async (id) =>{
     try{
         console.log(id)
-        const res = await fetch(`http://localhost:3001/Products/${id}`,{
+        const res = await fetch(`https://my-json-server.typicode.com/Vacherandla/aluraGeek.api/Products/${id}`,{
             method: "DELETE",
         });
         const data = await res.json();
